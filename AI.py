@@ -28,7 +28,7 @@ you can answer in more then 1 line, if needed, but keep it short and sweet, like
 """
 Google Gemini AI Configuration
 """
-genai.configure(api_key="AIzaSyCJtUdKv1SNJMk14rNWWH36sQcbTb33dAY")
+genai.configure(api_key="<API - key>")
 model = genai.GenerativeModel(
     model_name="gemini-1.5-flash",
     system_instruction=system_instruction
@@ -47,7 +47,7 @@ def Gemini(question):
 OpenAI API Configuration
 """
 client = OpenAI(
-    api_key="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",
+    api_key="sk-or-v1-<API - key>",
     base_url="https://openrouter.ai/api/v1"
 )
 openai_history = [
